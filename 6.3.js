@@ -25,7 +25,7 @@ function rand(max){
 
 let rectanglesArray = [];
 //Generation des rectangles
-for(let i=0; i<NBR_RECTANGLES; i++){
+for(let i=0; i<1000; i++){
     rect = new Rectangle(
         rand(100),rand(100), rand(20), rand(20)
     )
